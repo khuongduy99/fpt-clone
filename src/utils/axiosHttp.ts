@@ -4,7 +4,7 @@ import {
   saveAccessTokenToLocalStorage,
 } from "./auth";
 const axiosHttp = axios.create({
-  baseURL: "http://localhost:7000/api/",
+  baseURL: "https://mobile-api-9aye.onrender.com/api/",
   timeout: 1000,
   headers: {
     Accept: "application/json",
