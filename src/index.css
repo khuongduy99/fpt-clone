@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.active_button {
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  color: white;
+}
